@@ -4,6 +4,12 @@
              xmlns:local="clr-namespace:WPF_LoginPage"
             Startup="ApplicationStart">
     <Application.Resources>
-         
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Styles/UIColors.xaml"/>
+                <ResourceDictionary Source="/Styles/ButtonStyles.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/Haley.WPF.IconsPack;component/Dictionaries/haleyRD.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>
